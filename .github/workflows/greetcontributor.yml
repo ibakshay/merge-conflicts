@@ -11,3 +11,5 @@ jobs:
       uses: ibakshay/greet-contributors-action@dev
       env: 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        pat: ${{ secrets.pat }}
