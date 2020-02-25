@@ -13,3 +13,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         pat: ${{ secrets.pat }}
+        private_key: ${{ secrets.private_key }}
